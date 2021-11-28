@@ -18,7 +18,7 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
 
   } finally {
 await conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*LIST MENU*', 'status@broadcast', { thumbnail: await (await fetch(safusimage)).buffer()})
-    let jam = moment.tz('Asia/Kolkata').format('HH')
+    let jam = moment.tz('Africa/Nairobi').format('HH')
     var ucapanWaktu = 'Good Morning 🌄'
 				if (jam >= '03' && jam <= '10') {
 				ucapanWaktu = 'Good Morning 🌄'
@@ -62,17 +62,17 @@ let menu =`
 │  *◩ ${ucapanWaktu} ◪*
 ╭──────────────────╯
 ╰──────────────────╮
-│ *◩ ᴀʟɪᴇɴ-ᴀʟғᴀ⁴ ◪*
+│ *◩ ȶʀǟƈɛʀȶɛƈɦ⁴ ◪*
 ╭──────────────────╯
 │
 │ ▢ *ᴛɪᴍᴇ* : ${time}
 │ ▢ *ᴅᴀᴛᴇ* : ${date}
 │ ▢ *ᴜᴘᴛɪᴍᴇ* : ${uptime}
 │ ▢ *ᴘʀᴇғɪx* : *[Multi Prefix]*
-│https://chat.whatsapp.com/LOPN0xHy6KRJU1vReO9Nno
+│
 │     ▎▍▌▌▉▏▎▌▉▐▏▌▎
 │     ▎▍▌▌▉▏▎▌▉▐▏▌▎
-│      ©917012074386
+│       ©2547227472670
 │
 ╰──────────────────╮
 ╭──────────────────╯
