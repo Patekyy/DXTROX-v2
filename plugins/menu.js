@@ -17,7 +17,7 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
   } catch (e) {
 
   } finally {
-    let jam = moment.tz('Asia/Kolkata').format('HH')
+    let jam = moment.tz('Africa/Nairobi').format('HH')
     var ucapanWaktu = 'Good Morning 🌄'
 				if (jam >= '03' && jam <= '10') {
 				ucapanWaktu = 'Good Morning 🌄'
