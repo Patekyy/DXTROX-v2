@@ -20,30 +20,32 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Total user:* ${totalreg} *user*
 ╠➥ *Uptime:* ${uptime}
 ║
-╠═〘 DONASI 〙 ═
-╠➥ Gopay: 085713964963
-╠➥ Indosat: 085713964963
+╠═〘 DONATION 〙 ═
+╠➥ Mpesa: +254727472670
+╠➥ Indosat: +254727472670
 ║
 ╠═ Request? ${package.bugs.url}
 ╠═ Official Group *${conn.user.name}* :
 ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
 ║
 ║${readMore}
-╠═〘 SYARAT & KETENTUAN Games-wabot 〙 ═
-╠➥ *KAMI TIDAK BERTANGGUNG*
-║   *JAWAB ATAS PENYALAH*
-║   *GUNAAN BOT*
-╠➥ *KAMI TIDAK BERTANGGUNG*
-║   *JAWAB ATAS KEBOCORAN DATA*
-║   *PRIBADI ANDA*
-╠➥ *KAMI AKAN MENYIMPAN DATA*
-║   *SEPERTI NOMER TELEPON*
-║   *ANDA DI DATABASE KAMI*
-║ 
+╠═〘 TRACERTECH BOT 〙 ═
+╠➥ *WE ARE NOT RESPONSIBLE*
+║   *FOR ANY OF THE BLAME*
+║   *INCLUDING WHATSAPP BAN*
+║   *AT TRACERTECH BOT*
+╠➥ *WE ARE NOT RESPONSIBLE*
+║   *FOR ANY DATA LEAK*
+║   *OR YOUR PERSONAL*
+╠➥ *WE WILL SAVE DATA*
+║   *LIKE PHONE NUMBER*
+║   *YOU ARE IN OUR DATABASE*
+╠➥ *WUSE MY BOT WISELY*
+║
 ║ 
 ╠═ ©2021 ${package.name}
-╠═ Script original by Nurutomo
-╠═〘 METRO BOT 〙 ═
+╠═ Script original by Trappy
+╠═〘 TRACERTECH BOT 〙 ═
 `.trim(), m)
 }
 handler.help = ['info']
